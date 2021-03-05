@@ -1,0 +1,14 @@
+/Users/scottcate/code/temp/scheduled links/bin/Debug/netcoreapp3.1/scheduled links.deps.json
+/Users/scottcate/code/temp/scheduled links/bin/Debug/netcoreapp3.1/scheduled links.runtimeconfig.json
+/Users/scottcate/code/temp/scheduled links/bin/Debug/netcoreapp3.1/scheduled links.runtimeconfig.dev.json
+/Users/scottcate/code/temp/scheduled links/bin/Debug/netcoreapp3.1/scheduled links.dll
+/Users/scottcate/code/temp/scheduled links/bin/Debug/netcoreapp3.1/scheduled links.pdb
+/Users/scottcate/code/temp/scheduled links/bin/Debug/netcoreapp3.1/Cronos.dll
+/Users/scottcate/code/temp/scheduled links/obj/Debug/netcoreapp3.1/scheduled links.csprojAssemblyReference.cache
+/Users/scottcate/code/temp/scheduled links/obj/Debug/netcoreapp3.1/scheduled links.AssemblyInfoInputs.cache
+/Users/scottcate/code/temp/scheduled links/obj/Debug/netcoreapp3.1/scheduled links.AssemblyInfo.cs
+/Users/scottcate/code/temp/scheduled links/obj/Debug/netcoreapp3.1/scheduled links.csproj.CoreCompileInputs.cache
+/Users/scottcate/code/temp/scheduled links/obj/Debug/netcoreapp3.1/scheduled links.csproj.CopyComplete
+/Users/scottcate/code/temp/scheduled links/obj/Debug/netcoreapp3.1/scheduled links.dll
+/Users/scottcate/code/temp/scheduled links/obj/Debug/netcoreapp3.1/scheduled links.pdb
+/Users/scottcate/code/temp/scheduled links/obj/Debug/netcoreapp3.1/scheduled links.genruntimeconfig.cache

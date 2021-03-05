@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "scheduled links/1.0.0": {
+        "dependencies": {
+          "Cronos": "0.7.0"
+        },
+        "runtime": {
+          "scheduled links.dll": {}
+        }
+      },
+      "Cronos/0.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/Cronos.dll": {
+            "assemblyVersion": "0.7.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "scheduled links/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Cronos/0.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r7bwVGU2Kkh95cbXB88BtOtZyUOE/DDX+Shhe9SXgcsHV+LFPulygdoVxGLTqTpibwGw4B09WTNqQgFr3QrP9g==",
+      "path": "cronos/0.7.0",
+      "hashPath": "cronos.0.7.0.nupkg.sha512"
+    }
+  }
+}

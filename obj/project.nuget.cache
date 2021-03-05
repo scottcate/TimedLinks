@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "62R+d6rZ0h3D9wPmlz/nYzuEczBKG1maLJk7VpXHF74S5xW6NbN9r803eh4xprSbWadMT3Bbpt/bxcjbMgQbPA==",
+  "success": true,
+  "projectFilePath": "/Users/scottcate/code/temp/scheduled links/scheduled links.csproj",
+  "expectedPackageFiles": [
+    "/Users/scottcate/.nuget/packages/cronos/0.7.0/cronos.0.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
