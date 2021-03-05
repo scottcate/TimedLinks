@@ -7,6 +7,7 @@ namespace scheduled_links
     {
         static void Main(string[] args)
         {
+            //Jan 4th, 2021 = Monday
             var testTimes = new DateTime[] {
                 DateTime.Parse("2021/01/04 08:29Z").ToUniversalTime(),
                 DateTime.Parse("2021/01/04 08:30Z").ToUniversalTime(),
@@ -15,6 +16,17 @@ namespace scheduled_links
                 DateTime.Parse("2021/01/04 09:00Z").ToUniversalTime(),
                 DateTime.Parse("2021/01/04 09:00:01Z").ToUniversalTime(),
                 DateTime.Parse("2021/01/04 09:30Z").ToUniversalTime()
+            };
+
+            //Jan 3rd, 2021 = Sunday
+            var wekendTestTimes = new DateTime[] {
+                DateTime.Parse("2021/01/03 08:29Z").ToUniversalTime(),
+                DateTime.Parse("2021/01/03 08:30Z").ToUniversalTime(),
+                DateTime.Parse("2021/01/03 08:30:01Z").ToUniversalTime(),
+                DateTime.Parse("2021/01/03 08:59:59Z").ToUniversalTime(),
+                DateTime.Parse("2021/01/03 09:00Z").ToUniversalTime(),
+                DateTime.Parse("2021/01/03 09:00:01Z").ToUniversalTime(),
+                DateTime.Parse("2021/01/03 09:30Z").ToUniversalTime()
             };
 
             //schedules
@@ -84,6 +96,13 @@ namespace scheduled_links
 
             System.Console.WriteLine("Expecting 8:30 - 9 Overrides, with all 3 schedules");
             foreach (DateTime d in testTimes)
+            {
+                Console.WriteLine($"Test Time {d.ToString("T")}: {multiScheduleLink.RedirectLink(d)}");
+            }
+
+            
+            System.Console.WriteLine("Expecting no overrides: schedule is weekend");
+            foreach (DateTime d in wekendTestTimes)
             {
                 Console.WriteLine($"Test Time {d.ToString("T")}: {multiScheduleLink.RedirectLink(d)}");
             }
